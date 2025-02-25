@@ -347,11 +347,24 @@ In python when statement is required (after semicolon), but we don't like to exe
 
 **Example:**
 
-```py
+```
 for number in range(6):
     pass
 ```
-
+```n=int(input("entrer un nombre : "))
+for i in range(n):
+  fiche ={
+      'nom':"",
+      'app':""  ,
+      'grade':[20,14,12,20,20,6]
+  }
+  #calcul de la moyenne
+  s=0.
+  for x in fiche['grade']:
+      s=s+x
+  moyenne=s/6
+  print(moyenne)
+```
 🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed day 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises: Day 10
